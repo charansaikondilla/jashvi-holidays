@@ -1,0 +1,6 @@
+.travel-strip{overflow-x:scroll!important;overflow-y:hidden;touch-action:pan-x pan-y;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:#c38b2e #e9e3d8}
+.travel-strip.is-auto-scrolling{scroll-snap-type:none!important;scroll-behavior:auto!important;cursor:grab}
+.travel-strip::-webkit-scrollbar{display:block!important;height:7px}
+.travel-strip::-webkit-scrollbar-track{background:#e9e3d8;border-radius:8px}
+.travel-strip::-webkit-scrollbar-thumb{background:#c38b2e;border-radius:8px}
+.travel-tile:focus-visible{outline:3px solid #efbd63;outline-offset:3px}

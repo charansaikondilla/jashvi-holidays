@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://charansaikondilla.github.io/jashvi-holidays/sitemap.xml

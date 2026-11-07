@@ -1,0 +1,18 @@
+Destination photos sourced from Unsplash. Confirm licensing and any location or image accuracy with the agency before public launch. Other destination images may be AI-generated illustrations.
+
+goa: https://images.unsplash.com/photo-1512343879784-a960bf40e7f2
+ooty: https://images.unsplash.com/photo-1736950823699-b4822f00b59b
+coorg: https://images.unsplash.com/photo-1694608217125-ea7080a35de0
+lakshadweep: https://images.unsplash.com/photo-1584107662774-8d575e8f3550
+sikkim: https://images.unsplash.com/photo-1632407575668-c956f851c3d7
+meghalaya: https://images.unsplash.com/photo-1609276804051-8c5e906cc430
+assam: https://images.unsplash.com/photo-1685948704729-ea8b6af566b6
+darjeeling: https://images.unsplash.com/photo-1626082895617-2c6de34f6af3
+manali: https://images.unsplash.com/photo-1618402455914-bf290015666a
+shimla: https://images.unsplash.com/photo-1648541446190-4047360a1f0f
+sri-lanka: https://images.unsplash.com/photo-1711797750174-c3750dd9d7c9
+malaysia: https://images.unsplash.com/photo-1602599898361-1720e33a0ba1
+bangkok: https://images.unsplash.com/photo-1588855273366-5f119db297e6
+vietnam: https://images.unsplash.com/photo-1748102289607-4e1270e4da65
+australia: https://images.unsplash.com/photo-1602385676602-6f0ee562d964
+south-africa: https://images.unsplash.com/photo-1626894169601-482d26b23f35
