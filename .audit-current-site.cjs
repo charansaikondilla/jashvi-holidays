@@ -8,9 +8,12 @@ for (const dir of ['.', 'dist']) {
     if (html.includes('Swipe or use the arrows to explore. Images are illustrative; all itineraries are customisable.')) {
       errors++; console.error(`${dir}/${page}: old hint still present`);
     }
-    for (const [, script] of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)) {
+    for (const [, attributes, script] of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)) {
       if (!script.trim()) continue;
-      try { new Function(script); } catch (error) { errors++; console.error(`${dir}/${page}: ${error.message}`); }
+      try {
+        if (/\btype=["']application\/ld\+json["']/i.test(attributes)) JSON.parse(script);
+        else new Function(script);
+      } catch (error) { errors++; console.error(`${dir}/${page}: ${error.message}`); }
     }
     for (const [, ref] of html.matchAll(/(?:src|href)\s*=\s*["']([^"']+)["']/gi)) {
       if (/^(?:https?:|mailto:|tel:|#|data:|javascript:)/i.test(ref)) continue;
